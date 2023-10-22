@@ -4,9 +4,11 @@ const areYouReadyForStudy: boolean = true;
 
 const tsSimpleCounter: number = 1204;
 
-let jsSimpleCounter: number | string = 15;
+type TypeCurrentVariable = number | string;
 
-jsSimpleCounter = "Hello, World!";
+let jsSimpleCounter: TypeCurrentVariable = 15;
+
+// jsSimpleCounter = "Hello, World!";
 
 const thisIsMessage: string = `Total count is: ${jsSimpleCounter}`;
 
